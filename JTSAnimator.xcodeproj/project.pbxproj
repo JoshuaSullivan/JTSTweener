@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA904A60A077E3E5C1FFCB0 /* JTSAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA90AC16B89D4BBA2EE565C /* JTSAnimator.m */; };
 		BC89BB131AA0289700B782F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB121AA0289700B782F9 /* main.m */; };
 		BC89BB161AA0289700B782F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB151AA0289700B782F9 /* AppDelegate.m */; };
 		BC89BB191AA0289700B782F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB181AA0289700B782F9 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		BC89BB1E1AA0289700B782F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC89BB1D1AA0289700B782F9 /* Images.xcassets */; };
 		BC89BB211AA0289700B782F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC89BB1F1AA0289700B782F9 /* LaunchScreen.xib */; };
 		BC89BB2D1AA0289800B782F9 /* JTSAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB2C1AA0289800B782F9 /* JTSAnimatorTests.m */; };
+		BC89BB381AA02E5D00B782F9 /* JTSEaseLinear.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB371AA02E5D00B782F9 /* JTSEaseLinear.m */; };
+		BC89BB3C1AA02FB600B782F9 /* JTSEaseQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB3B1AA02FB600B782F9 /* JTSEaseQuadratic.m */; };
+		BC89BB3F1AA0318F00B782F9 /* JTSEaseCubic.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB3E1AA0318F00B782F9 /* JTSEaseCubic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BA905DDA149E0E371EFBD0A /* JTSAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimator.h; sourceTree = "<group>"; };
+		4BA90AC16B89D4BBA2EE565C /* JTSAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimator.m; sourceTree = "<group>"; };
 		BC89BB0D1AA0289700B782F9 /* JTSAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTSAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC89BB111AA0289700B782F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC89BB121AA0289700B782F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,13 @@
 		BC89BB261AA0289700B782F9 /* JTSAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTSAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC89BB2B1AA0289700B782F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC89BB2C1AA0289800B782F9 /* JTSAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatorTests.m; sourceTree = "<group>"; };
+		BC89BB361AA02E5D00B782F9 /* JTSEaseLinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSEaseLinear.h; sourceTree = "<group>"; };
+		BC89BB371AA02E5D00B782F9 /* JTSEaseLinear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSEaseLinear.m; sourceTree = "<group>"; };
+		BC89BB391AA02E9E00B782F9 /* JTSAnimatorTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTSAnimatorTypes.h; sourceTree = "<group>"; };
+		BC89BB3A1AA02FB600B782F9 /* JTSEaseQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSEaseQuadratic.h; sourceTree = "<group>"; };
+		BC89BB3B1AA02FB600B782F9 /* JTSEaseQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSEaseQuadratic.m; sourceTree = "<group>"; };
+		BC89BB3D1AA0318F00B782F9 /* JTSEaseCubic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSEaseCubic.h; sourceTree = "<group>"; };
+		BC89BB3E1AA0318F00B782F9 /* JTSEaseCubic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSEaseCubic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BA90177FE31A7F5F769A88F /* Easing */ = {
+			isa = PBXGroup;
+			children = (
+				BC89BB361AA02E5D00B782F9 /* JTSEaseLinear.h */,
+				BC89BB371AA02E5D00B782F9 /* JTSEaseLinear.m */,
+				BC89BB3A1AA02FB600B782F9 /* JTSEaseQuadratic.h */,
+				BC89BB3B1AA02FB600B782F9 /* JTSEaseQuadratic.m */,
+				BC89BB3D1AA0318F00B782F9 /* JTSEaseCubic.h */,
+				BC89BB3E1AA0318F00B782F9 /* JTSEaseCubic.m */,
+			);
+			path = Easing;
+			sourceTree = "<group>";
+		};
+		4BA9039E2E1D8BB620563D87 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				4BA905DDA149E0E371EFBD0A /* JTSAnimator.h */,
+				4BA90AC16B89D4BBA2EE565C /* JTSAnimator.m */,
+				4BA90177FE31A7F5F769A88F /* Easing */,
+				BC89BB391AA02E9E00B782F9 /* JTSAnimatorTypes.h */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
 		BC89BB041AA0289700B782F9 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +126,7 @@
 				BC89BB1D1AA0289700B782F9 /* Images.xcassets */,
 				BC89BB1F1AA0289700B782F9 /* LaunchScreen.xib */,
 				BC89BB101AA0289700B782F9 /* Supporting Files */,
+				4BA9039E2E1D8BB620563D87 /* Animator */,
 			);
 			path = JTSAnimator;
 			sourceTree = "<group>";
@@ -163,6 +201,7 @@
 		BC89BB051AA0289700B782F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JTS;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Joshua Sullivan";
 				TargetAttributes = {
@@ -219,9 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC89BB3F1AA0318F00B782F9 /* JTSEaseCubic.m in Sources */,
 				BC89BB191AA0289700B782F9 /* ViewController.m in Sources */,
+				BC89BB381AA02E5D00B782F9 /* JTSEaseLinear.m in Sources */,
 				BC89BB161AA0289700B782F9 /* AppDelegate.m in Sources */,
 				BC89BB131AA0289700B782F9 /* main.m in Sources */,
+				4BA904A60A077E3E5C1FFCB0 /* JTSAnimator.m in Sources */,
+				BC89BB3C1AA02FB600B782F9 /* JTSEaseQuadratic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +457,7 @@
 				BC89BB321AA0289800B782F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC89BB331AA0289800B782F9 /* Build configuration list for PBXNativeTarget "JTSAnimatorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +466,7 @@
 				BC89BB351AA0289800B782F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
