@@ -1,6 +1,6 @@
 //
 //  JTSEaseLinear.m
-//  JTSAnimator
+//  JTSTweener
 //
 //  Created by Joshua Sullivan on 2/26/15.
 //  Copyright (c) 2015 Joshua Sullivan. All rights reserved.
@@ -10,9 +10,9 @@
 
 @implementation JTSEaseLinear
 
-+ (RatioTransformer)easeNone
++ (EasingCurve)easeNone
 {
-    static RatioTransformer _easer;
+    static EasingCurve _easer;
     if (!_easer) {
         _easer = ^CGFloat(CGFloat ratio) {
             return ratio;

@@ -12,4 +12,11 @@
 
 
 @implementation JTSTweener
+
++ (JTSTweener *)tweenerWithDuration:(NSTimeInterval)duration startingValue:(CGFloat)startingValue endingValue:(CGFloat)endingValue easingCurve:(EasingCurve)easingCurve options:(NSDictionary *)optionsOrNil progressBlock:(JTSTweenProgressBlock)progressBlock completionBlock:(JTSTweenCompletionBlock)completionBlock
+{
+    return [[JTSTweener alloc] init];
+}
+
+
 @end
