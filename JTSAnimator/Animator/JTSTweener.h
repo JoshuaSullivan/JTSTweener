@@ -4,8 +4,10 @@
 //
 
 @import Foundation;
+@import CoreGraphics;
 
-@interface JTSAnimator : NSObject
+
+@interface JTSTweener : NSObject
 
 
 

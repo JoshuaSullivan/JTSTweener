@@ -3,13 +3,13 @@
 // Copyright (c) 2015 Joshua Sullivan. All rights reserved.
 //
 
-#import "JTSAnimator.h"
+#import "JTSTweener.h"
 
 
-@interface JTSAnimator ()
+@interface JTSTweener ()
 
 @end
 
 
-@implementation JTSAnimator
+@implementation JTSTweener
 @end
