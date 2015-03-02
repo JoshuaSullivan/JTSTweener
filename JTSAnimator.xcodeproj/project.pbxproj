@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA900FAF6A20FBC40CE5069 /* JTSEaseBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA901288407F3542CD8E94A /* JTSEaseBounce.m */; };
 		4BA904A60A077E3E5C1FFCB0 /* JTSTweener.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA90AC16B89D4BBA2EE565C /* JTSTweener.m */; };
 		BC89BB131AA0289700B782F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB121AA0289700B782F9 /* main.m */; };
 		BC89BB161AA0289700B782F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89BB151AA0289700B782F9 /* AppDelegate.m */; };
@@ -31,8 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BA901288407F3542CD8E94A /* JTSEaseBounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSEaseBounce.m; sourceTree = "<group>"; };
 		4BA905DDA149E0E371EFBD0A /* JTSTweener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSTweener.h; sourceTree = "<group>"; };
 		4BA90AC16B89D4BBA2EE565C /* JTSTweener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSTweener.m; sourceTree = "<group>"; };
+		4BA90E6F5488FE7C7A53F47F /* JTSEaseBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSEaseBounce.h; sourceTree = "<group>"; };
 		BC89BB0D1AA0289700B782F9 /* JTSAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTSAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC89BB111AA0289700B782F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC89BB121AA0289700B782F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				BC89BB3B1AA02FB600B782F9 /* JTSEaseQuadratic.m */,
 				BC89BB3D1AA0318F00B782F9 /* JTSEaseCubic.h */,
 				BC89BB3E1AA0318F00B782F9 /* JTSEaseCubic.m */,
+				4BA901288407F3542CD8E94A /* JTSEaseBounce.m */,
+				4BA90E6F5488FE7C7A53F47F /* JTSEaseBounce.h */,
 			);
 			path = Easing;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				BC89BB131AA0289700B782F9 /* main.m in Sources */,
 				4BA904A60A077E3E5C1FFCB0 /* JTSTweener.m in Sources */,
 				BC89BB3C1AA02FB600B782F9 /* JTSEaseQuadratic.m in Sources */,
+				4BA900FAF6A20FBC40CE5069 /* JTSEaseBounce.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
