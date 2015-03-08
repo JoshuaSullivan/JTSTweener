@@ -34,15 +34,8 @@ typedef void (^JTSTweenCompletionBlock)(JTSTweener *tween, BOOL completedSuccess
 @property (assign, nonatomic) NSTimeInterval duration;
 @property (readonly, nonatomic) EasingCurve easingCurve;
 @property (readonly, nonatomic) NSDictionary *options;
-
-- (instancetype)initWithDuration:(NSTimeInterval)duration
-                   startingValue:(CGFloat)startingValue
-                     endingValue:(CGFloat)endingValue
-                     easingCurve:(EasingCurve)easingCurve
-                         options:(NSDictionary *)optionsOrNil
-                   progressBlock:(JTSTweenProgressBlock)progressBlock
-                 completionBlock:(JTSTweenCompletionBlock)completionBlock
-
+@property (readonly, nonatomic) BOOL isPaused;
+@property (readonly, nonatomic) BOOL isComplete;
 
 + (JTSTweener *)tweenerWithDuration:(NSTimeInterval)duration
                       startingValue:(CGFloat)startingValue
@@ -51,5 +44,10 @@ typedef void (^JTSTweenCompletionBlock)(JTSTweener *tween, BOOL completedSuccess
                             options:(NSDictionary *)optionsOrNil
                       progressBlock:(JTSTweenProgressBlock)progressBlock
                     completionBlock:(JTSTweenCompletionBlock)completionBlock;
+
+- (void)pause;
+- (void)resume;
+- (void)cancel;
+
 
 @end
