@@ -96,7 +96,9 @@ static CFTimeInterval _prevTimestamp = -1.0;
 
 - (void)cancel
 {
-    self.completionBlock(self, NO);
+    if (self.completionBlock) {
+        self.completionBlock(self, NO);
+    }
     [self destroy];
 }
 
