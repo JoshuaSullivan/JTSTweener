@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JTSAnimatorTypes.h"
+#import "JTSTweenerTypes.h"
 
 
 @interface JTSEaseBounce : NSObject

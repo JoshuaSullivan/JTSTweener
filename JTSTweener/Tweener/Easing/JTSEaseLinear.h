@@ -7,7 +7,7 @@
 //
 
 @import Foundation;
-#import "JTSAnimatorTypes.h"
+#import "JTSTweenerTypes.h"
 
 @interface JTSEaseLinear : NSObject
 

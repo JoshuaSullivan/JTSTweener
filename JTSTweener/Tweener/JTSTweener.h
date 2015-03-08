@@ -5,7 +5,7 @@
 
 @import Foundation;
 @import CoreGraphics;
-#import "JTSAnimatorTypes.h"
+#import "JTSTweenerTypes.h"
 
 @class JTSTweener;
 
