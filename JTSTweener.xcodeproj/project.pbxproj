@@ -73,10 +73,10 @@
 		4BA9039E2E1D8BB620563D87 /* Tweener */ = {
 			isa = PBXGroup;
 			children = (
+				BC89BB391AA02E9E00B782F9 /* JTSTweenerTypes.h */,
 				4BA905DDA149E0E371EFBD0A /* JTSTweener.h */,
 				4BA90AC16B89D4BBA2EE565C /* JTSTweener.m */,
 				4BA90177FE31A7F5F769A88F /* Easing */,
-				BC89BB391AA02E9E00B782F9 /* JTSTweenerTypes.h */,
 			);
 			path = Tweener;
 			sourceTree = "<group>";
