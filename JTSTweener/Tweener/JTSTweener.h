@@ -27,6 +27,20 @@ typedef void (^JTSTweenProgressBlock)(JTSTweener *tween, CGFloat value, NSTimeIn
 */
 typedef void (^JTSTweenCompletionBlock)(JTSTweener *tween, BOOL completedSuccessfully);
 
+extern const struct JTSTweenerOptions {
+    /**
+    *  Value should be an NSNumber wrapping a signed integer.
+    *  This value should be interpreted to mean "the number of times the animation will repeat after its
+    *  first run-through." A value of 3 would cause the animation to play 4 times (original run + 3 repeats).
+    *  A negative value will cause the tweener to repeat indefinitely.
+    *  The default value for this option is 0, meaning the tween runs only once.
+    */
+    __unsafe_unretained NSString *repeatCount;
+
+    /** Value should be a NSNumber wrapping a non-negative NSTimeInterval/double. Negative values will be treated as 0. */
+    __unsafe_unretained NSString *delay;
+} JTSTweenerOptions;
+
 @interface JTSTweener : NSObject
 
 /** The value that the tween will start at. The first progress invocation will be this value. */
